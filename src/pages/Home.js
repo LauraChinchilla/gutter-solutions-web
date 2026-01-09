@@ -39,7 +39,7 @@ const Home = () => {
           transition={{ delay: 0.5, duration: 2 }}
           className="text-white text-lg sm:text-xl md:text-2xl mb-8 leading-relaxed"
         >
-          {t("Expert care for your home starts here. Specializing in Gutters and Much More")}
+          {t("Expert care for your home starts here. Specializing in Gutters and much more.")}
         </motion.p>
 
         {/* BOTONES */}
@@ -50,17 +50,17 @@ const Home = () => {
           className="flex flex-col sm:flex-row gap-4"
         >
           <a
-            href="#services"
+            href="/services"
             className="px-6 py-3 bg-brand-light text-brand-white rounded-md hover:bg-brand-steel transition"
           >
             {t("Our Services")}
           </a>
 
           <a
-            href="#quote"
+            href="/Gallery"
             className="px-6 py-3 border-2 border-brand-light text-brand-light rounded-md hover:bg-brand-light hover:text-brand-white transition"
           >
-            {t("Get a Quote")}
+            {t("Gallery")}
           </a>
         </motion.div>
       </motion.div>
