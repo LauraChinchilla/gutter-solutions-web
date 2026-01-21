@@ -5,13 +5,23 @@ const AboutUs = () => {
   const { t } = useTranslation();
 
   return (
-    <section
-      id="about"
-      className="relative w-full min-h-screen bg-center bg-cover flex items-center"
-      style={{
-        backgroundImage: `url('https://chocoxfsidqqlpdazxva.supabase.co/storage/v1/object/public/logoGutter/About.png')`,
-      }}
-    >
+    <section id="about" className="relative w-full min-h-screen bg-center bg-cover flex items-center">
+      {/* Imagen para DESKTOP */}
+      <div
+        className="hidden sm:block absolute inset-0 bg-center bg-cover"
+        style={{
+          backgroundImage: `url('https://chocoxfsidqqlpdazxva.supabase.co/storage/v1/object/public/logoGutter/About.png')`,
+        }}
+      ></div>
+
+      {/* Imagen para MÓVIL */}
+      <div
+        className="block sm:hidden absolute inset-0 bg-center bg-cover"
+        style={{
+          backgroundImage: `url('https://chocoxfsidqqlpdazxva.supabase.co/storage/v1/object/public/logoGutter/AboutPhone.png')`,
+        }}
+      ></div>
+
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40"></div>
 
@@ -22,7 +32,7 @@ const AboutUs = () => {
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-brand-white text-5xl font-bold text-center mb-16"
+          className="text-brand-white text-4xl sm:text-5xl font-bold text-center mb-8 mt-8 sm:mt-0"
         >
           {t("ABOUT US")}
         </motion.h2>

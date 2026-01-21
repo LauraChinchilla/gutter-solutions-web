@@ -5,13 +5,24 @@ const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <section
-      id="home"
-      className="relative w-full h-screen bg-center bg-cover overflow-hidden"
-      style={{
-        backgroundImage: `url('https://chocoxfsidqqlpdazxva.supabase.co/storage/v1/object/public/logoGutter/Home.png')`,
-      }}
-    >
+    <section id="home" className="relative w-full h-screen overflow-hidden">
+
+      {/* Imagen para DESKTOP */}
+      <div
+        className="hidden sm:block absolute inset-0 bg-center bg-cover"
+        style={{
+          backgroundImage: `url('https://chocoxfsidqqlpdazxva.supabase.co/storage/v1/object/public/logoGutter/Home2.png')`,
+        }}
+      ></div>
+
+      {/* Imagen para MÓVIL */}
+      <div
+        className="block sm:hidden absolute inset-0 bg-center bg-cover"
+        style={{
+          backgroundImage: `url('https://chocoxfsidqqlpdazxva.supabase.co/storage/v1/object/public/logoGutter/HomePhone.png')`,
+        }}
+      ></div>
+
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/30"></div>
 

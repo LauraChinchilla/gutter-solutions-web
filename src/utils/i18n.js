@@ -15,8 +15,8 @@ const resources = {
 
       // Home
       "Welcome to M Gutter Solutions": "Welcome to M Gutter Solutions",
-      "Expert care for your home starts here. Specializing in Gutters and Much More":
-        "Expert care for your home starts here. Specializing in Gutters and much more",
+      "Expert care for your home starts here. Specializing in Gutters and much more.":
+        "Expert care for your home starts here. Specializing in Gutters and much more.",
       "Our Services": "Our Services",
 
       // About Us
@@ -82,6 +82,52 @@ const resources = {
       // EN
       "Under Construction": "Under Construction",
       "This section of the website is coming soon. Stay tuned!": "This section of the website is coming soon. Stay tuned!",
+            "Gutter Installation": "Gutter Installation",
+      "Gutter Repair": "Gutter Repair",
+      "Gutter Cleaning": "Gutter Cleaning",
+      "Downspout Installation": "Downspout Installation",
+      "Roof & Fascia Inspection": "Roof & Fascia Inspection",
+      "Leaf Guard Systems": "Leaf Guard Systems",
+
+      "Professional installation of seamless gutter systems designed to protect your home.":
+        "Professional installation of seamless gutter systems designed to protect your home.",
+      "Fixing leaks, misalignment, and damaged gutter sections.":
+        "Fixing leaks, misalignment, and damaged gutter sections.",
+      "Seasonal cleaning to prevent clogs and water damage.":
+        "Seasonal cleaning to prevent clogs and water damage.",
+      "Efficient water drainage solutions to protect foundations.":
+        "Efficient water drainage solutions to protect foundations.",
+      "Preventive inspections to ensure long-term durability.":
+        "Preventive inspections to ensure long-term durability.",
+      "Advanced systems to keep leaves and debris out.":
+        "Advanced systems to keep leaves and debris out.",
+      "High-quality gutter solutions designed to protect, enhance, and add value to your home.":
+      "High-quality gutter solutions designed to protect, enhance, and add value to your home.",
+
+"Professional installation of seamless gutter systems in 5\" and 6\" sizes, custom-fitted to provide superior drainage and long-lasting protection for your home.":
+  "Professional installation of seamless gutter systems in 5\" and 6\" sizes, custom-fitted to provide superior drainage and long-lasting protection for your home.",
+
+
+"Gutter Covers & Guards": "Gutter Covers & Guards",
+"Protect your system with high-quality guards including Bulldog, Screens, Leaf Sentry, and Master Pro. Designed to keep leaves out and reduce maintenance.":
+  "Protect your system with high-quality guards including Bulldog, Screens, Leaf Sentry, and Master Pro. Designed to keep leaves out and reduce maintenance.",
+
+"Window & Door Repair": "Window & Door Repair",
+"Expert repair and restoration services for windows and doors, including professional trim installation to enhance curb appeal and ensure energy efficiency.":
+  "Expert repair and restoration services for windows and doors, including professional trim installation to enhance curb appeal and ensure energy efficiency.",
+
+"Siding Installation & Repair": "Siding Installation & Repair",
+"High-quality siding solutions including Vinyl, Hardie Board, and Wood. We provide expert installation and repairs to improve insulation and give your home a fresh, modern look.":
+  "High-quality siding solutions including Vinyl, Hardie Board, and Wood. We provide expert installation and repairs to improve insulation and give your home a fresh, modern look.",
+
+"Fascia & Soffit Services": "Fascia & Soffit Services",
+"Expert installation and repair of metal fascia and wood soffits. We ensure a perfect seal to protect your roof rafters from rot while enhancing your home's exterior ventilation and style.":
+  "Expert installation and repair of metal fascia and wood soffits. We ensure a perfect seal to protect your roof rafters from rot while enhancing your home's exterior ventilation and style.",
+
+"Rotten Wood Repair": "Rotten Wood Repair",
+"Specialized restoration of damaged wood in frames, trim, and structural areas. We identify the source of moisture, replace decayed sections, and apply professional finishes to prevent future rot.":
+  "Specialized restoration of damaged wood in frames, trim, and structural areas. We identify the source of moisture, replace decayed sections, and apply professional finishes to prevent future rot."
+
     },
   },
   es: {
@@ -96,7 +142,7 @@ const resources = {
 
       // Home
       "Welcome to M Gutter Solutions": "Bienvenido a M Gutter Solutions",
-      "Expert care for your home starts here. Specializing in Gutters and Much More":
+      "Expert care for your home starts here. Specializing in Gutters and much more.":
         "El cuidado experto para tu hogar empieza aquí. Especializados en canaletas y mucho más.",
       "Our Services": "Nuestros Servicios",
 
@@ -163,6 +209,48 @@ const resources = {
       // ES
       "Under Construction": "En Construcción",
       "This section of the website is coming soon. Stay tuned!": "Esta sección del sitio web estará disponible pronto. ¡Mantente atento!",
+
+       "Gutter Installation": "Instalación de Canaletas",
+      "Gutter Repair": "Reparación de Canaletas",
+      "Gutter Cleaning": "Limpieza de Canaletas",
+      "Downspout Installation": "Instalación de Bajantes",
+      "Roof & Fascia Inspection": "Inspección de Techo y Fascia",
+      "Leaf Guard Systems": "Sistemas Antihojas",
+
+      "Professional installation of seamless gutter systems designed to protect your home.":
+        "Instalación profesional de sistemas de canaletas sin juntas diseñados para proteger tu hogar.",
+      "Fixing leaks, misalignment, and damaged gutter sections.":
+        "Reparación de fugas, desalineaciones y secciones de canaletas dañadas.",
+      "Seasonal cleaning to prevent clogs and water damage.":
+        "Limpieza estacional para prevenir obstrucciones y daños por agua.",
+      "Efficient water drainage solutions to protect foundations.":
+        "Soluciones eficientes de drenaje de agua para proteger los cimientos.",
+      "Preventive inspections to ensure long-term durability.":
+        "Inspecciones preventivas para garantizar la durabilidad a largo plazo.",
+      "Advanced systems to keep leaves and debris out.":
+        "Sistemas avanzados para mantener hojas y escombros fuera.",
+        "High-quality gutter solutions designed to protect, enhance, and add value to your home.":
+  "Soluciones de canaletas de alta calidad diseñadas para proteger, mejorar y añadir valor a tu hogar.",
+
+"Gutter Covers & Guards": "Protectores y Cubiertas para Canaletas",
+"Protect your system with high-quality guards including Bulldog, Screens, Leaf Sentry, and Master Pro. Designed to keep leaves out and reduce maintenance.":
+  "Protege tu sistema con protectores de alta calidad como Bulldog, Screens, Leaf Sentry y Master Pro. Diseñados para evitar la acumulación de hojas y reducir el mantenimiento.",
+
+"Window & Door Repair": "Reparación de Ventanas y Puertas",
+"Expert repair and restoration services for windows and doors, including professional trim installation to enhance curb appeal and ensure energy efficiency.":
+  "Servicios expertos de reparación y restauración de ventanas y puertas, incluyendo instalación profesional de molduras para mejorar la apariencia y garantizar eficiencia energética.",
+
+"Siding Installation & Repair": "Instalación y Reparación de Revestimientos",
+"High-quality siding solutions including Vinyl, Hardie Board, and Wood. We provide expert installation and repairs to improve insulation and give your home a fresh, modern look.":
+  "Soluciones de revestimiento de alta calidad que incluyen Vinyl, Hardie Board y madera. Brindamos instalación y reparaciones profesionales para mejorar el aislamiento y darle a tu hogar un aspecto moderno y renovado.",
+
+"Fascia & Soffit Services": "Servicios de Fascia y Soffit",
+"Expert installation and repair of metal fascia and wood soffits. We ensure a perfect seal to protect your roof rafters from rot while enhancing your home's exterior ventilation and style.":
+  "Instalación y reparación profesional de fascia metálica y soffits de madera. Garantizamos un sellado perfecto para proteger las vigas del techo contra la humedad y mejorar la ventilación y el estilo exterior de tu hogar.",
+
+"Rotten Wood Repair": "Reparación de Madera Dañada",
+"Specialized restoration of damaged wood in frames, trim, and structural areas. We identify the source of moisture, replace decayed sections, and apply professional finishes to prevent future rot.":
+  "Restauración especializada de madera dañada en marcos, molduras y áreas estructurales. Identificamos la fuente de humedad, reemplazamos las secciones deterioradas y aplicamos acabados profesionales para prevenir futuros daños."
 
     },
   },
